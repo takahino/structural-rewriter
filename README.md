@@ -244,8 +244,8 @@ java -jar comby.jar 'foo(:[x])' 'bar(:[x])' -f .java -json-lines
 ```xml
 <dependency>
   <groupId>io.github.takahino</groupId>
-  <artifactId>comby</artifactId>
-  <version>0.1.0-SNAPSHOT</version>
+  <artifactId>structural-rewriter</artifactId>
+  <version>0.1.0</version>
 </dependency>
 ```
 
