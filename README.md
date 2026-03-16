@@ -241,11 +241,20 @@ java -jar comby.jar 'foo(:[x])' 'bar(:[x])' -f .java -json-lines
 
 ### Maven 依存関係
 
+[JitPack](https://jitpack.io/#takahino/structural-rewriter) 経由で利用できます。
+
 ```xml
+<repositories>
+  <repository>
+    <id>jitpack.io</id>
+    <url>https://jitpack.io</url>
+  </repository>
+</repositories>
+
 <dependency>
-  <groupId>io.github.takahino</groupId>
+  <groupId>com.github.takahino</groupId>
   <artifactId>structural-rewriter</artifactId>
-  <version>0.1.0</version>
+  <version>v0.1.1</version>
 </dependency>
 ```
 
